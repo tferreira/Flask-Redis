@@ -1,5 +1,5 @@
 from flask import jsonify
-from index import app
+from index import app  # , db
 from .auth import requires_auth
 # from .models import MyObject
 
