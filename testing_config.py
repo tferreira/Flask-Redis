@@ -14,7 +14,7 @@ class BaseTestConfig(TestCase):
         #     "/api/create-something",
         #     data=json.dumps(self.default_data),
         #     content_type='application/json',
-        #     headers={'Authorization': self.token}
+        #     headers={'Authorization': 'secret'}
         # )
 
     def tearDown(self):
