@@ -6,13 +6,19 @@ Boilerplate application for a Flask Backend using Redis.
 * Pytest
 * Flask
 
-### Run Back-End
+### Install dependencies
+
+```sh
+$ make install
+```
+
+### Run API
 
 ```sh
 $ make launch
 ```
 
-### Test Back-End
+### Test API
 
 ```sh
 $ make test
